@@ -1,0 +1,36 @@
+#title{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.boxx{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.optionBtns{
+    border-radius: 50%;
+    border: none;
+    font-size: 6rem;
+    cursor: pointer;
+}
+
+.optionBtns:hover{
+    background-color: darkgray;
+}
+
+.optionBtns:active{
+    background-color: rgb(236, 231, 231);
+}
+
+.content{
+    margin: 0;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

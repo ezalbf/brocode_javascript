@@ -1,0 +1,24 @@
+body{
+    margin: 0;
+    background-image: url("../images/cloudss.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#clock-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}
+
+#clock{
+    font-size: 6rem;
+    font-family: monospace;
+    width: 100%;
+    text-align: center;
+    backdrop-filter: blur(15px);
+    background-color: hsla(0, 0%, 100%, 0.1);
+}

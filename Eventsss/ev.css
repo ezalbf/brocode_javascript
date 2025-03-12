@@ -1,0 +1,21 @@
+#myBox{
+    background-color: rgb(127, 189, 127);
+    width: 300px;
+    height: 300px;
+    font-size: 3.5rem;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+}
+
+#myBox1{
+    background-color: lightblue;
+    width: 200px;
+    height: 200px;
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
